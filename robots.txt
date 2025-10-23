@@ -1,0 +1,10 @@
+# robots.txt pour CD Nails
+
+User-agent: *
+Allow: /
+
+# Sitemap (à créer une fois le domaine configuré)
+# Sitemap: https://votre-domaine.com/sitemap.xml
+
+# Bloquer les fichiers sensibles
+Disallow: /README.md
