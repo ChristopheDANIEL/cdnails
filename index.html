@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Prothésiste ongulaire professionnelle - Manucure, pose de vernis semi-permanent, extensions d'ongles et nail art sur mesure">
     <title>CD Nails - Prothésiste Ongulaire</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -31,32 +34,111 @@
 
     <!-- Hero Section -->
     <section id="accueil" class="hero">
-        <div class="hero-content">
-            <h2 class="hero-title">Sublimez vos ongles avec élégance</h2>
-            <p class="hero-subtitle">Prothésiste ongulaire professionnelle à votre service</p>
-            <a href="#contact" class="btn btn-primary">Prendre rendez-vous</a>
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
         </div>
-        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                <span>Votre experte en beauté des ongles</span>
+            </div>
+            <h1 class="hero-title">
+                Sublimez vos ongles<br/>
+                <span class="gradient-text">avec élégance</span>
+            </h1>
+            <p class="hero-subtitle">Prothésiste ongulaire professionnelle certifiée, passionnée par l'art de sublimer vos mains avec des techniques innovantes et des produits premium.</p>
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary">
+                    <span>Prendre rendez-vous</span>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+                <a href="#services" class="btn btn-secondary">Découvrir mes services</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Années d'expérience</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Clientes satisfaites</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Produits premium</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-arrow"></div>
+        </div>
     </section>
 
     <!-- À propos -->
     <section id="apropos" class="about">
         <div class="container">
             <div class="about-content">
-                <div class="about-text">
-                    <h2>Bienvenue chez CD Nails</h2>
-                    <p>Passionnée par l'art de la beauté des ongles, je vous accueille dans un environnement chaleureux et professionnel pour prendre soin de vos mains.</p>
-                    <p>Avec plusieurs années d'expérience et une formation certifiée, je mets mon savoir-faire à votre service pour des prestations de qualité, personnalisées selon vos envies.</p>
-                    <ul class="about-features">
-                        <li>✨ Produits professionnels de qualité premium</li>
-                        <li>✨ Hygiène irréprochable</li>
-                        <li>✨ Techniques à la pointe des tendances</li>
-                        <li>✨ Conseils personnalisés</li>
-                    </ul>
-                </div>
                 <div class="about-image">
-                    <div class="image-placeholder">
-                        <span>Photo</span>
+                    <div class="image-wrapper">
+                        <div class="image-placeholder">
+                            <span>Photo</span>
+                        </div>
+                        <div class="floating-card card-1">
+                            <div class="card-icon">💅</div>
+                            <div class="card-text">Certifiée</div>
+                        </div>
+                        <div class="floating-card card-2">
+                            <div class="card-icon">⭐</div>
+                            <div class="card-text">5/5 étoiles</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <div class="section-label">À propos</div>
+                    <h2>Bienvenue chez<br/><span class="gradient-text">CD Nails</span></h2>
+                    <p class="lead">Passionnée par l'art de la beauté des ongles, je vous accueille dans un environnement chaleureux et professionnel pour prendre soin de vos mains.</p>
+                    <p>Avec plusieurs années d'expérience et une formation certifiée, je mets mon savoir-faire à votre service pour des prestations de qualité, personnalisées selon vos envies.</p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Produits Premium</h4>
+                                <p>Qualité professionnelle garantie</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Hygiène Irréprochable</h4>
+                                <p>Normes sanitaires strictes</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Techniques Innovantes</h4>
+                                <p>À la pointe des tendances</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -66,7 +148,11 @@
     <!-- Services -->
     <section id="services" class="services">
         <div class="container">
-            <h2 class="section-title">Mes Services</h2>
+            <div class="section-header">
+                <div class="section-label">Prestations</div>
+                <h2 class="section-title">Mes Services</h2>
+                <p class="section-description">Des prestations complètes pour sublimer vos ongles avec expertise et passion</p>
+            </div>
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">💅</div>
@@ -105,8 +191,11 @@
     <!-- Galerie -->
     <section id="galerie" class="gallery">
         <div class="container">
-            <h2 class="section-title">Galerie</h2>
-            <p class="section-subtitle">Découvrez quelques-unes de mes réalisations</p>
+            <div class="section-header">
+                <div class="section-label">Portfolio</div>
+                <h2 class="section-title">Galerie</h2>
+                <p class="section-description">Découvrez quelques-unes de mes créations et réalisations</p>
+            </div>
             <div class="gallery-grid">
                 <div class="gallery-item">
                     <div class="image-placeholder">Photo 1</div>
@@ -133,7 +222,11 @@
     <!-- Tarifs -->
     <section id="tarifs" class="pricing">
         <div class="container">
-            <h2 class="section-title">Tarifs</h2>
+            <div class="section-header">
+                <div class="section-label">Tarification</div>
+                <h2 class="section-title">Tarifs</h2>
+                <p class="section-description">Des formules adaptées à tous vos besoins</p>
+            </div>
             <div class="pricing-grid">
                 <div class="pricing-card">
                     <h3>Manucure Classique</h3>
@@ -171,7 +264,11 @@
     <!-- Témoignages -->
     <section class="testimonials">
         <div class="container">
-            <h2 class="section-title">Avis Clients</h2>
+            <div class="section-header">
+                <div class="section-label">Témoignages</div>
+                <h2 class="section-title">Avis Clients</h2>
+                <p class="section-description">Ce que mes clientes disent de leurs expériences</p>
+            </div>
             <div class="testimonials-grid">
                 <div class="testimonial-card">
                     <div class="stars">⭐⭐⭐⭐⭐</div>
@@ -195,7 +292,11 @@
     <!-- Contact -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title">Contact</h2>
+            <div class="section-header">
+                <div class="section-label">Réservation</div>
+                <h2 class="section-title">Prenez Rendez-vous</h2>
+                <p class="section-description">Contactez-moi pour réserver votre créneau ou pour toute question</p>
+            </div>
             <div class="contact-content">
                 <div class="contact-info">
                     <h3>Coordonnées</h3>
